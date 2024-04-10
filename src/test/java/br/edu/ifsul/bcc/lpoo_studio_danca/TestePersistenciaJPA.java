@@ -36,7 +36,7 @@ public class TestePersistenciaJPA {
 
     @Test
     public void testePersistenciaJPA() throws Exception {
-        //Cria Objeto Produto
+        //Cria Objeto
         Modalidade m = new Modalidade();
         m.setDescricao("Danca Salao");
         //Persistir objeto
