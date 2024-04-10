@@ -1,0 +1,4 @@
+br\edu\ifsul\bcc\lpoo_studio_danca\dao\InterfacePersistencia.class
+br\edu\ifsul\bcc\lpoo\lpoo_studiodanca\LPOO_StudioDanca.class
+br\edu\ifsul\bcc\lpoo_studio_danca\model\Modalidade.class
+br\edu\ifsul\bcc\lpoo_studio_danca\dao\PersistenciaJPA.class
