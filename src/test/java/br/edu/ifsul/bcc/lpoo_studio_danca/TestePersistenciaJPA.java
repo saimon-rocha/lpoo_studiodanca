@@ -31,7 +31,6 @@ public class TestePersistenciaJPA {
     @After
     public void tearDown() {
         jpa.fecharConexao();
-        System.out.println("nao conectou no BD ...");
     }
 
     @Test
