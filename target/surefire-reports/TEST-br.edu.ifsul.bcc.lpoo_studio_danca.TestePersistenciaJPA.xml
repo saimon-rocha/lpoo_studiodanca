@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="br.edu.ifsul.bcc.lpoo_studio_danca.TestePersistenciaJPA" time="3.967" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="br.edu.ifsul.bcc.lpoo_studio_danca.TestePersistenciaJPA" time="4.653" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\Saimon-Rocha\AppData\Local\Temp\surefire4103228478046285252\surefirebooter-20240410195603331_3.jar C:\Users\Saimon-Rocha\AppData\Local\Temp\surefire4103228478046285252 2024-04-10T19-56-02_961-jvmRun1 surefire-20240410195603331_1tmp surefire_0-20240410195603331_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Saimon-Rocha\AppData\Local\Temp\surefire14030258512500095540\surefirebooter-20240412200849013_3.jar C:\Users\Saimon-Rocha\AppData\Local\Temp\surefire14030258512500095540 2024-04-12T20-08-48_622-jvmRun1 surefire-20240412200849013_1tmp surefire_0-20240412200849013_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="br.edu.ifsul.bcc.lpoo_studio_danca.TestePersistenciaJPA"/>
     <property name="surefire.test.class.path" value="C:\Users\Saimon-Rocha\Desktop\Arquivos\Documentos\Faculdade\4° Semestre\Linguagem Orientada a Objeto\Projetos\LPOO_StudioDanca\target\test-classes;C:\Users\Saimon-Rocha\Desktop\Arquivos\Documentos\Faculdade\4° Semestre\Linguagem Orientada a Objeto\Projetos\LPOO_StudioDanca\target\classes;C:\Users\Saimon-Rocha\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.2.Final\hibernate-jpa-2.1-api-1.0.2.Final.jar;C:\Users\Saimon-Rocha\.m2\repository\org\hibernate\hibernate-core\5.3.3.Final\hibernate-core-5.3.3.Final.jar;C:\Users\Saimon-Rocha\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\Saimon-Rocha\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\Saimon-Rocha\.m2\repository\org\javassist\javassist\3.23.1-GA\javassist-3.23.1-GA.jar;C:\Users\Saimon-Rocha\.m2\repository\net\bytebuddy\byte-buddy\1.8.13\byte-buddy-1.8.13.jar;C:\Users\Saimon-Rocha\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Saimon-Rocha\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\Saimon-Rocha\.m2\repository\org\jboss\jandex\2.0.5.Final\jandex-2.0.5.Final.jar;C:\Users\Saimon-Rocha\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;C:\Users\Saimon-Rocha\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Saimon-Rocha\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Saimon-Rocha\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.4.Final\hibernate-commons-annotations-5.0.4.Final.jar;C:\Users\Saimon-Rocha\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Saimon-Rocha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Saimon-Rocha\.m2\repository\org\postgresql\postgresql\42.2.24\postgresql-42.2.24.jar;C:\Users\Saimon-Rocha\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\Saimon-Rocha\.m2\repository\org\hibernate\hibernate-entitymanager\4.3.1.Final\hibernate-entitymanager-4.3.1.Final.jar;C:\Users\Saimon-Rocha\.m2\repository\org\jboss\logging\jboss-logging-annotations\1.2.0.Beta1\jboss-logging-annotations-1.2.0.Beta1.jar;C:\Users\Saimon-Rocha\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Saimon-Rocha\AppData\Local\Temp\surefire4103228478046285252\surefirebooter-20240410195603331_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Saimon-Rocha\AppData\Local\Temp\surefire14030258512500095540\surefirebooter-20240412200849013_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.2+7-44"/>
@@ -62,50 +62,60 @@
   </properties>
   <testcase name="testePersistenciaJPA" classname="br.edu.ifsul.bcc.lpoo_studio_danca.TestePersistenciaJPA" time="0.095">
     <system-out><![CDATA[Hibernate: drop table if exists tb_modalidade cascade
+Hibernate: drop table if exists tb_pagamento cascade
 Hibernate: drop sequence if exists seq_modalidade_id
+Hibernate: drop sequence if exists seq_pagamento_id
 Hibernate: create sequence seq_modalidade_id start 1 increment 1
+Hibernate: create sequence seq_pagamento_id start 1 increment 1
 Hibernate: create table tb_modalidade (id int4 not null, descricao varchar(100) not null, primary key (id))
+Hibernate: create table tb_pagamento (id int4 not null, dataPgto date not null, dataVcto date not null, valor float8 not null, valorPgto float8 not null, primary key (id))
 conectou no BD via jpa ...
 Hibernate: select nextval ('seq_modalidade_id')
 Hibernate: insert into tb_modalidade (descricao, id) values (?, ?)
+Hibernate: select nextval ('seq_pagamento_id')
+Hibernate: insert into tb_pagamento (dataPgto, dataVcto, valor, valorPgto, id) values (?, ?, ?, ?, ?)
+Pagamento de R$1000.0
+Dia de Vencimento java.util.GregorianCalendar[time=1716174000000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT-03:00",offset=-10800000,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2024,MONTH=4,WEEK_OF_YEAR=21,WEEK_OF_MONTH=4,DAY_OF_MONTH=20,DAY_OF_YEAR=141,DAY_OF_WEEK=2,DAY_OF_WEEK_IN_MONTH=3,AM_PM=0,HOUR=0,HOUR_OF_DAY=0,MINUTE=0,SECOND=0,MILLISECOND=0,ZONE_OFFSET=-10800000,DST_OFFSET=0]
+Valor Pago R$ 900.0
+Dia de Pagamento java.util.GregorianCalendar[time=1712890800000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT-03:00",offset=-10800000,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2024,MONTH=3,WEEK_OF_YEAR=15,WEEK_OF_MONTH=2,DAY_OF_MONTH=12,DAY_OF_YEAR=103,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=0,HOUR=0,HOUR_OF_DAY=0,MINUTE=0,SECOND=0,MILLISECOND=0,ZONE_OFFSET=-10800000,DST_OFFSET=0]
 ]]></system-out>
-    <system-err><![CDATA[abr. 10, 2024 7:56:04 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+    <system-err><![CDATA[abr. 12, 2024 8:08:50 PM org.hibernate.ejb.HibernatePersistence logDeprecation
 WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
-abr. 10, 2024 7:56:04 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+abr. 12, 2024 8:08:50 PM org.hibernate.ejb.HibernatePersistence logDeprecation
 WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
-abr. 10, 2024 7:56:04 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+abr. 12, 2024 8:08:50 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [
 	name: pu_studio_danca
 	...]
-abr. 10, 2024 7:56:04 PM org.hibernate.Version logVersion
+abr. 12, 2024 8:08:51 PM org.hibernate.Version logVersion
 INFO: HHH000412: Hibernate Core {5.3.3.Final}
-abr. 10, 2024 7:56:04 PM org.hibernate.cfg.Environment <clinit>
+abr. 12, 2024 8:08:51 PM org.hibernate.cfg.Environment <clinit>
 INFO: HHH000206: hibernate.properties not found
-abr. 10, 2024 7:56:05 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+abr. 12, 2024 8:08:51 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
 INFO: HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-abr. 10, 2024 7:56:05 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+abr. 12, 2024 8:08:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-abr. 10, 2024 7:56:05 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+abr. 12, 2024 8:08:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/db_lpoo_studio_danca]
-abr. 10, 2024 7:56:05 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+abr. 12, 2024 8:08:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001001: Connection properties: {password=****, user=postgres}
-abr. 10, 2024 7:56:05 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+abr. 12, 2024 8:08:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-abr. 10, 2024 7:56:05 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+abr. 12, 2024 8:08:51 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-abr. 10, 2024 7:56:06 PM org.hibernate.dialect.Dialect <init>
+abr. 12, 2024 8:08:52 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
-abr. 10, 2024 7:56:06 PM org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl useContextualLobCreation
+abr. 12, 2024 8:08:52 PM org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl useContextualLobCreation
 INFO: HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-abr. 10, 2024 7:56:06 PM org.hibernate.type.BasicTypeRegistry register
-INFO: HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@21ca139c
-abr. 10, 2024 7:56:07 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ad16c5d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-abr. 10, 2024 7:56:07 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4996c99] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-abr. 10, 2024 7:56:07 PM org.hibernate.tool.schema.internal.SchemaCreatorImpl applyImportSources
-INFO: HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2370ac7a'
-abr. 10, 2024 7:56:07 PM org.hibernate.hql.internal.QueryTranslatorFactoryInitiator initiateService
+abr. 12, 2024 8:08:52 PM org.hibernate.type.BasicTypeRegistry register
+INFO: HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3277e499
+abr. 12, 2024 8:08:54 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2d3ef181] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+abr. 12, 2024 8:08:54 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a08efdc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+abr. 12, 2024 8:08:54 PM org.hibernate.tool.schema.internal.SchemaCreatorImpl applyImportSources
+INFO: HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@6d6bbd35'
+abr. 12, 2024 8:08:54 PM org.hibernate.hql.internal.QueryTranslatorFactoryInitiator initiateService
 INFO: HHH000397: Using ASTQueryTranslatorFactory
 ]]></system-err>
   </testcase>
