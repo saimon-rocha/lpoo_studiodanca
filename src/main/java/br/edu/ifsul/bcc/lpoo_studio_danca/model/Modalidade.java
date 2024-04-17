@@ -57,5 +57,4 @@ public class Modalidade implements Serializable {
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
-
 }

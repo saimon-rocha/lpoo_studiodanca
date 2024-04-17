@@ -1,16 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package br.edu.ifsul.bcc.lpoo_studio_danca.model;
 
 import java.io.Serializable;
 import java.util.Calendar;
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.SequenceGenerator;
@@ -38,15 +37,19 @@ public class Pagamento implements Serializable {
     @Temporal(TemporalType.DATE)
     private Calendar dataVcto;
 
-    @Column(nullable = false)
+    @Column(nullable = false, precision = 10, scale = 2)
     private Double valor;
 
     @Column(nullable = false)
     @Temporal(TemporalType.DATE)
     private Calendar dataPgto;
 
-    @Column(nullable = false)
+    @Column(nullable = false, precision = 10, scale = 2)
     private Double valorPgto;
+
+    @ManyToOne
+    @JoinColumn(name = "contrato_id", nullable = false)
+    private Contrato contrato;
 
     /**
      * @return the id
@@ -116,5 +119,19 @@ public class Pagamento implements Serializable {
      */
     public void setValorPgto(Double valorPgto) {
         this.valorPgto = valorPgto;
+    }
+
+    /**
+     * @return the contrato
+     */
+    public Contrato getContrato() {
+        return contrato;
+    }
+
+    /**
+     * @param contrato the contrato to set
+     */
+    public void setContrato(Contrato contrato) {
+        this.contrato = contrato;
     }
 }
